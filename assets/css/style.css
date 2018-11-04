@@ -9,7 +9,7 @@ button {
 }
 
 header h1 {
-    color: #ffffff;
+    color: #f0eaea;
     font-size: 3em;
     text-align: center;
 }
@@ -24,14 +24,14 @@ header h1 {
 }
 
 .gameField {
-    background: rgb(128, 128, 128, 0.5);
+    background: rgba(0, 0, 0, 0.3);
     height: 500px;
 }
 
 .gameField ul {
     list-style-type: none;
     margin: 0 auto;
-    width: 300px;
+    width: 420px;
 }
 
 #start {
@@ -41,18 +41,28 @@ header h1 {
     margin: 0 auto;
     display: block;
 }
-.question {
+.gameField h2, .gameField p, .answers li{
     color: #ffffff;
     font-size: 2em;
     text-align: center;
 }
 
+.gameField h2 {
+    font-size: 2em;
+}
+
+.gameField p, .answers li {
+    font-size: 1,5em;
+}
+
 .answers li {
-    text-align: center;
-    font-size: 1.5em;
-    color: #ffffff;
     font-weight: 700;
     margin: 10px;
+}
+
+.gameField img {
+    margin: 0 auto;
+    display: block;
 }
 
 .answers li:hover {
